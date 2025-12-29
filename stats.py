@@ -16,7 +16,7 @@ def count_characters(text):
             char_counts[letter]["num"] += 1
     return char_counts
 
- def sorted_characters(text):
+def sorted_characters(text):
     def sort_on(items):
        return items[1]["num"]
     unsorted = count_characters(text)
